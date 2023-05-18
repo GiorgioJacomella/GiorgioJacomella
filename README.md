@@ -1,1 +1,1 @@
-Currently learning basic web- & application development
+Currently learning web- & application development
