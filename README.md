@@ -8,4 +8,5 @@ Alongside my studies, I'm participating in the 'SPARC' project offered by the Sw
 ## CERTIFICATIONS
 
 -PCAP: Programming Essentials in Python
+
 -NDG Linux Unhatched
