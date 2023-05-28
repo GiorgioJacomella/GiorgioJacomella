@@ -10,3 +10,6 @@ Alongside my studies, I'm participating in the 'SPARC' project offered by the Sw
 -PCAP: Programming Essentials in Python
 
 -NDG Linux Unhatched
+
+
+[Click here to learn more about me](https://giorgiojacomella.github.io/GiorgioJacomella/index.html)
