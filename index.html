@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GIORGIO</title>
   <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
@@ -8,7 +9,7 @@
 <body>
   <header>
     <div class="logo-nav">
-      <img src="./logo_giorgio.png" onclick="location.reload();" />
+      <img src="./logo_giorgio.png" alt="Giorgio" onclick="location.reload();" />
 
       <nav>
         <ul>
@@ -19,57 +20,44 @@
     </div>
   </header>
 
-  
-  <div class="title_show" id="title_show">
-      <p>CREATIVE AND INOVATIVE</p>
-  </div>
+  <section class="title-show" id="title_show">
+      <h1>CREATIVE AND INNOVATIVE</h1>
+  </section>
 
-  
-  <div class="boxes" id="about">
-
-      <h2>About me:</h2>
-      
-      <div class="box">
-        <h2 class="box-title">MY NAME IS GIORGIO</h2>
-        <p class="box-text">I am a swiss computer science student specializing in application development.  <br>Prior to attending the IT school, I successfully completed the preparatory course in design at the INVERS School of Design. <br>This experience provided me with a solid foundation in design aspects that I now apply in the field of computer science.</p>
-        <br>
-        <a class="box-button" href="./about.html">Read more...</a>
-      </div>
-
-  </div>
-    
-  <div class="boxes" id="projects">
-
-    <h2>Projects:</h2>
-
+  <section class="boxes" id="about">
+    <h2>About me:</h2>
+    <br>
     <div class="box">
-        <h2 class="box-title">Web-development</h2>
-        <p class="box-text">Welcome to my web project portfolio! Here, you'll find a collection of my latest web creations.</p>
-        <br>
-        <a class="box-button" href="./web.html">Read more...</a>
+      <h3 class="box-title">MY NAME IS GIORGIO</h3>
+      <p class="box-text">I am a Swiss computer science student specializing in application development. Prior to attending the IT school, I successfully completed the preparatory course in design at the INVERS School of Design. This experience provided me with a solid foundation in design aspects that I now apply in the field of computer science.</p>
+      <a class="box-button" href="./about.html">Read more...</a>
+    </div>
+  </section>
+    
+  <section class="boxes" id="projects">
+    <h2>Projects:</h2>
+    <br>
+    <div class="box">
+      <h3 class="box-title">Web Development</h3>
+      <p class="box-text">Welcome to my web project portfolio! Here, you'll find a collection of my latest web creations.</p>
+      <a class="box-button" href="./web.html">Read more...</a>
     </div>
 
-    <br>
-
     <div class="box">
-      <h2 class="box-title">Python</h2>
-      <p class="box-text">Welcome to my Python Projects! Here, you'll find a portfolio of my python codes and applications. Stay tuned for new developments. <br>If you have any questions, feel free to reach out to me.</p>
-      <br>
+      <h3 class="box-title">Python</h3>
+      <p class="box-text">Welcome to my Python Projects! Here, you'll find a portfolio of my Python codes and applications. Stay tuned for new developments. If you have any questions, feel free to reach out to me.</p>
       <a class="box-button" href="./python.html">Read more...</a>
     </div>
+  </section>
     
-    <br>
-  </div>
-    
-  
   <footer>
     <div class="footer">
       <div class="row">
         <a href="https://github.com/GiorgioJacomella">Github</a>
-        <p> | <p>
         <a href="https://www.linkedin.com/in/giorgio-jacomella-095062231/">Linkedin</a>
-        <p> | </p>
         <a onclick="location.href='mailto:giorgio.jacomella@student.ipso.ch'">CONTACT ME</a>
+      </div>
+    </div>
   </footer>
     
 </body>
