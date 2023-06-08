@@ -1,14 +1,21 @@
-body {
+/* Reset styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
   color: #333;
+  line-height: 1.5;
 }
 
 header {
   background-color: #ffffff;
   text-align: left;
+  padding: 30px;
 }
 
 .logo-nav {
@@ -19,69 +26,57 @@ header {
 
 header img {
   cursor: pointer;
-  padding: 2% 0 0 2%;
-  width: 8%;
+  width: 120px;
   height: auto;
-  vertical-align: middle;
 }
 
-header nav {
-  padding: 2% 2% 0 0;
-  background-color: #ffffff;
-  text-align: right;
-}
-
-nav ul {
+header nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
+header nav ul li a {
   display: inline-block;
-}
-
-nav ul li a {
-  display: block;
-  padding: 10px 20px;
+  padding: 15px 30px;
+  margin: 5px;
   color: #000000;
+  background-color: #ffffff;
   text-decoration: none;
-  border: px solid #000000;
-  transition: background-color 0.3s, color 0.3s;
+  transition: padding 0.3s, background-color 0.3s, color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
+  padding: 18px 36px;
   background-color: #000000;
   color: #ffffff;
 }
 
-.title_show {
-  background: url("./backgroung_01_giorgio.png") no-repeat center;
+.title-show {
+  background: url("./background_01_giorgio.png") no-repeat center;
   background-size: cover;
-  object-position: center;
-  padding-bottom: 10%;
-  width: 100%;
-  height: 200%;
+  height: 600px;
+  padding: 1px 0;
+  text-align: center;
 }
 
-
-.title_show p {
+.title-show h1 {
   color: #000000;
-  font-size: 300%; 
+  font-size: 48px;
+  margin-top: 150px;
   text-align: center;
-  padding: 15.5%;
 }
 
 .boxes {
-  justify-content: center;
-  align-items: center;
-  padding:0 30% 10% 30%;
+  padding: 50px;
 }
 
 .box {
-  border: 1px solid #ffffff;
-  padding: 2%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .box-title {
@@ -91,56 +86,44 @@ nav ul li a:hover {
 }
 
 .box-text {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .box-button {
-  display: block;
+  display: inline-block;
   padding: 10px 20px;
   color: #000000;
+  background-color: #ffffff;
   text-decoration: none;
-  border: 1px solid #000000;
-  transition: background-color 0.3s, color 0.3s;
+  transition: padding 0.3s, background-color 0.3s, color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .box-button:hover {
+  padding: 12px 24px;
   background-color: #000000;
   color: #ffffff;
 }
 
-
-
-
-
 .footer {
-  background: linear-gradient(to bottom, #00000080, #00000000);
-  border-top: 1px solid #000000;
-  color: #fff;
-  width: 100%;
-  padding: 2% 0px 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
   text-align: center;
 }
 
-
-.row {
+.footer .row {
   display: flex;
+  justify-content: center;
 }
 
-.row a {
-  color: #000;
+.footer a {
+  color: #ffffff;
   text-decoration: none;
   margin: 0 10px;
+  transition: color 0.3s;
 }
 
-.row a:hover{
-  color: #fff;
-}
-
-.row p {
-  color: #000;
-  text-decoration: none;
-  margin: 0 10px;
+.footer a:hover {
+  color: #cccccc;
 }
