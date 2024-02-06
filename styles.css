@@ -1,4 +1,3 @@
-/* Reset styles */
 * {
   margin: 0;
   padding: 0;
@@ -72,12 +71,33 @@ header nav ul li a:hover {
   padding: 50px;
 }
 
+.boxes h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
 .box {
   background-color: #ffffff;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
+
+.boxProject {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out; 
+}
+
+.boxProject:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
 
 .box-title {
   font-size: 24px;
@@ -100,9 +120,39 @@ header nav ul li a:hover {
 }
 
 .box-button:hover {
-  padding: 12px 24px;
   background-color: #000000;
   color: #ffffff;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box img {
+  max-width: 100%;
+  max-height: 400px;
+  height: auto;
+}
+
+.boxProject img {
+  max-width: 100%;
+  max-height: 400px;
+  height: auto;
+}
+
+
+@media (min-width: 768px) {
+  .box-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .boxProject {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
 }
 
 .footer {
