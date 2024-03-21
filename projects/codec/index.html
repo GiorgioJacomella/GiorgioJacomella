@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIORGIO JACOMELLA</title>
+    <link rel="stylesheet" href="../../styles/styles.css">
+</head>
+<body>
+    <header>
+        <a href="../../index.html"><img class="logo" src="../../public/logo_giorgio.png" alt="Logo"></a>
+        <div class="icon" onclick="openMenu()">
+            <div class="fa">&#9776;</div>
+        </div>
+        <ul class="menu">
+            <li><a class="menuItem" href="../../index.html">HOME</a></li>
+            <li><a class="menuItem" href="../../projects/index.html">PROJECTS</a></li>
+            <li><a class="menuItem" href="../../about/index.html">ABOUT</a></li>
+            <li><a class="menuItem" href="../../contact/index.html">CONTACT</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="projectList">
+            <div class="projectGallery">
+                <img src="../../public/CodecPreview.png">
+                <div class="textContent">
+                    <h1>Codec and Calculator Tool</h1>
+                    <h2>Technologies used:</h2>
+                    <div class="iconsRow">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+                            <img class="Icon" src="../../public/icons/icons8-html5-96.png" alt="HTML">
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                            <img class="Icon" src="../../public/icons/icons8-css-logo-100.png" alt="CSS">
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                            <img class="Icon" src="../../public/icons/icons8-javascript-96.png" alt="JavaScript">
+                        </a>
+                    </div>
+                    <p>The codec part of this project is mainly focused on coding and decoding or encrypting and decripting with simple and famous methods, Some of the used methods are usefull for resistancy while others are for their simplicity.
+                        <br><br>
+                        Decimals and hexadecimals:
+                        This function is able to calculate the hexadecimal number from a decimal input and also is able to calculate it the other way around.
+                        <br><br>
+                        Decimals and binary:
+                        This function is able to calculate the binary value of a number and also the other way around.
+                        <br><br>
+                        Hamming code:
+                        This function is able to generate Hamming code wich is a system that makes data more resistant against errors, at the moment the decoding function doesnt correct 1 bit errors yet but this is a point for future improvement.
+                        <br><br>
+                        Ceasar cipher:
+                        The Caesar cipher is a basic encryption technique where each letter in a message is shifted a certain number of positions in the alphabet. For example, with a shift of 3, 'A' becomes 'D', 'B' becomes 'E', and so on. It's a simple way to hide the meaning of a message, but it's easy to decrypt since there are only 25 possible shift values. It's more of a learning tool than a secure encryption method. A possible function for future improvements of this tool could be a Ceasar cipher cracker.
+                        <br><br>
+                    </p>
+                    <p>
+                        Calculation:
+                            This calculator is made for calculating basic mathematical functions. You can make 2 inputs wich then calculate the output for each mathematical function with JavaScript, at the moment this calculator includes Following functions:<br>
+                            -Addition<br>
+                            -Subtraction<br>
+                            -Division<br>
+                            -Multiplication
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footermenu">
+            <a class="footerLink" href="../../index.html">HOME</a>
+            <a class="footerLink" href="../../projects/index.html">PROJECTS</a>
+            <a class="footerLink" href="../../about/index.html">ABOUT</a>
+            <a class="footerLink" href="../../contact/index.html">CONTACT</a>
+            <a target="_blank" href="https://icons8.com">Icons created by Icons8</a>
+        </div>
+        <div class="footerContact">
+            <!-- Contact options, LinkedIn, GitHub -->
+            <a onclick="location.href='mailto:giorgio.jacomella@student.ipso.ch'">Email</a>
+            <a href="https://github.com/GiorgioJacomella">Github</a>
+            <a href="https://www.linkedin.com/in/giorgio-jacomella-095062231/">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="../../scripts/index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIORGIO JACOMELLA</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../public/logo_giorgio.png" alt="Logo"></a>
+        <div class="icon" onclick="openMenu()">
+            <div class="fa">&#9776;</div>
+        </div>
+        <ul class="menu">
+            <li><a class="menuItem" href="../index.html">HOME</a></li>
+            <li><a class="menuItem" href="../projects/index.html">PROJECTS</a></li>
+            <li><a class="menuItem" href="../about/index.html">ABOUT</a></li>
+            <li><a class="currentMenuItem" href="../contact/index.html">CONTACT</a></li>
+        </ul>
+    </header>
+    <main style="margin-top: 80px;">
+        <div style="padding: 20px;""></div>
+        <form action="https://api.web3forms.com/submit" method="POST" style="padding: 20px; max-width: 600px; margin: auto; background-color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); border: 1px solid #000;">
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="31394b41-be22-4edc-9442-8169be200709">
+        
+            <!-- Name Input -->
+            <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #000;">
+        
+            <!-- Email Input -->
+            <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #000;">
+        
+            <!-- Message Input -->
+            <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
+            <textarea id="message" name="message" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #000; height: 150px;"></textarea>
+        
+            <!-- hCaptcha Spam Protection -->
+            <div class="h-captcha" data-captcha="true"></div>
+        
+            <!-- Submit Button -->
+            <button id="formButton" type="submit" class="projectPreview button">Submit message</button>
+        
+        </form>
+        <!-- Required for hCaptcha -->
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+                
+    </main>
+    <footer>
+        <div class="footermenu">
+            <a class="footerLink" href="../index.html">HOME</a>
+            <a class="footerLink" href="../projects/index.html">PROJECTS</a>
+            <a class="footerLink" href="../about/index.html">ABOUT</a>
+            <a class="footerLink" href="../contact/index.html">CONTACT</a>
+            <a target="_blank" href="https://icons8.com">Icons created by Icons8</a>
+        </div>
+        <div class="footerContact">
+            <!-- Contact options, LinkedIn, GitHub -->
+            <a onclick="location.href='mailto:giorgio.jacomella@student.ipso.ch'">Email</a>
+            <a href="https://github.com/GiorgioJacomella">Github</a>
+            <a href="https://www.linkedin.com/in/giorgio-jacomella-095062231/">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="../scripts/index.js"></script>
+</body>
+</html>
+

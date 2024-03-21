@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+/*Header*/
+header {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    height: 80px;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+}
+.logo {
+    padding: 10px;
+    width: 80px;
+}
+ul.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.menu li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+ul.menu li a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+.icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .currentMenuItem {
+        border-bottom: solid #000000;
+    }
+}
+@media screen and (max-width: 768px) {
+    .icon {
+        display: block;
+        color: #0F1035;
+    }
+    ul.menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: #FFFFFF;
+        border: solid;
+        border-width: 1px;
+        border-color: #000000;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);
+    }
+    ul.menu.active {
+        display: block;
+    }
+    ul.menu li {
+        display: block;
+        border: solid;
+        border-width: 1px;
+        border-color: #000000;
+    }
+    ul.menu li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+    }
+}
+
+
+/*Main*/
+/*Main*/
+main {
+    background: url('../public/background_index.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    min-height: 100vh;
+}
+
+.titleElement {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 0;
+}
+.titleElement h1 {
+    font-size: 100px;
+    color: #000000;
+    background-color: #FFFFFF;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 100px;
+    border: solid;
+    border-color: #000000;
+}
+#clickHereToProjects {
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #000;
+    border: solid black 1px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition:  color 0.3s, background-color 0.3s;
+}
+#clickHereToProjects:hover {
+    color: #000;
+    background-color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+    .titleElement h1 {
+        font-size: 40px;
+    }
+}
+.projectPreviewList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto; /* Centering the project list */
+}
+.projectPreview {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.projectPreview img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #000;
+}
+.projectPreview h1 {
+    color: #000;
+    font-size: 1.25em;
+    margin: 10px 0;
+}
+.projectPreview p {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.projectPreview button, .projectGallery button, #formButton {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 15px 10px 0 0;
+    display: inline-block;
+    border: 1px solid #000;
+    transition: color 0.3s, background-color 0.3s;
+}
+.projectPreview button:hover, .projectGallery button:hover, #formButton:hover {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #000;
+}
+.projectList {
+    display: flex; 
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*Projectgallery*/
+.projectGallery {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectGallery img {
+    width: 50%; 
+    object-fit: cover;
+    margin-right: 20px; 
+}
+.textContent h1, .textContent h2 {
+    margin-bottom: 10px; 
+}
+.textContent {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.iconsRow {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+.Icon {
+    max-width: 100px; 
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+.textContent h1, .textContent h2, .textContent p {
+    width: 100%;
+}
+.textContent img.Icon:last-of-type { 
+    margin-right: 0; 
+}
+.textContent h1, .textContent p {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.textContent p {
+    margin-bottom: 10px; 
+}
+.textContent button {
+    align-self: start; 
+}
+@media screen and (max-width: 600px) {
+    .projectGallery {
+        display: block;
+    }
+    .projectGallery img{
+        width: 100%;
+    }
+    .textContent {
+        margin: 40px;
+        width: 70%;
+    }
+}
+
+
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.footermenu, .footerContact {
+    display: flex;
+}
+.footermenu a, .footerContact a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+.footermenu a:hover, .footerContact a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footermenu, .footerContact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footermenu a, .footerContact a {
+        margin: 5px 0;
+    }
+}
