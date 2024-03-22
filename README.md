@@ -10,5 +10,4 @@ Before attending IT school, I explored my creative side at the INVERS School of 
 
 -NDG Linux Unhatched
 
-
 [Click here to learn more about me](https://giorgiojacomella.github.io/GiorgioJacomella/index.html)
