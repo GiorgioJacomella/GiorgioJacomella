@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "logo": "Giorgio Jacomella",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "CODE AT FULL THROTTLE",
+    "primaryButton": "START YOUR PROJECT",
+    "secondaryButtons": {
+      "about": "ABOUT ME",
+      "projects": "PROJECTS"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About Me",
+      "description": "I’m a software developer from Switzerland, focused on web development and web design. I bring a wide range of software development skills with strong expertise in React and TypeScript. Currently, I work at the company Synprovis, helping develop the quality management tool Improve 2."
+    },
+    "skills": {
+      "title": "Skills & Expertise",
+      "items": [
+        { "name": "React", "level": 70 },
+        { "name": "TypeScript", "level": 70 },
+        { "name": "SQL", "level": 60 },
+        { "name": "Git", "level": 50 }
+      ]
+    },
+    "timeline": {
+      "title": "Experience & Journey",
+      "items": [
+        {
+          "title": "Creative Foundations",
+          "description": "I began my journey at Invers art school, where I learned the fundamentals of design. During this time, I discovered web development and programming, which sparked my passion for building digital solutions."
+        },
+        {
+          "title": "First Steps as a Developer",
+          "description": "I decided to shift my career path towards software development and started working on my first small projects, gaining hands-on experience and deepening my skills."
+        },
+        {
+          "title": "Coding Quality",
+          "description": "Two years after deciding to pursue a coding career, I started my first full-time role as a software developer at the company Synprovis. There, I contribute to the development of quality management software and help build Improve 2."
+        }
+      ],
+      "end": {
+        "title": "Ready to Collaborate?",
+        "description": "Let's work together to bring your ideas to life.",
+        "button": "START YOUR PROJECT"
+      }
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "optional": "optional",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or idea...",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "Thank you for reaching out! I'll get back to you as soon as possible."
+    },
+    "error": {
+      "title": "Oops! Something went wrong",
+      "message": "Failed to send message. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Developing your ideas into reality.",
+    "navigation": "Navigation",
+    "social": "Platforms",
+    "rights": "All rights reserved."
+  }
+}
