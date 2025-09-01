@@ -1,0 +1,85 @@
+{
+  "navigation": {
+    "logo": "Giorgio Jacomella",
+    "home": "Startseite",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "ENTWICKLUNG MIT VOLLGAS",
+    "primaryButton": "DEIN PROJEKT STARTEN",
+    "secondaryButtons": {
+      "about": "ÜBER MICH",
+      "projects": "PROJEKTE"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "Über mich",
+      "description": "Ich bin Softwareentwickler aus der Schweiz mit Schwerpunkt auf Webentwicklung und Webdesign. Neben vielfältigen Softwareentwicklungskompetenzen liegen meine besonderen Stärken in React und TypeScript. Derzeit arbeite ich bei der Firma Synprovis und unterstütze die Entwicklung des Qualitätsmanagement-Tools Improve 2."
+    },
+    "skills": {
+      "title": "Fähigkeiten & Expertise",
+      "items": [
+        { "name": "React", "level": 70 },
+        { "name": "TypeScript", "level": 70 },
+        { "name": "SQL", "level": 60 },
+        { "name": "Git", "level": 50 }
+      ]
+    },
+    "timeline": {
+      "title": "Erfahrung & Reise",
+      "items": [
+        {
+          "title": "Kreative Grundlagen",
+          "description": "Meine Laufbahn begann an der Kunstschule Invers, wo ich die Grundlagen des Designs erlernte. In dieser Zeit entdeckte ich die Webentwicklung und Programmierung, was meine Leidenschaft für digitale Lösungen entfachte."
+        },
+        {
+          "title": "Erste Schritte in der Entwicklung",
+          "description": "Ich entschied mich für den Karriereweg als Softwareentwickler und begann mit meinen ersten kleinen Projekten, um praktische Erfahrungen zu sammeln und meine Fähigkeiten zu vertiefen."
+        },
+        {
+          "title": "Qualität entwickeln",
+          "description": "Zwei Jahre nach meiner Entscheidung, eine Karriere im Programmieren einzuschlagen, trat ich meine erste Vollzeitstelle als Softwareentwickler bei der Firma Synprovis an. Dort unterstütze ich die Entwicklung von Qualitätsmanagement-Software und arbeite am Aufbau von Improve 2."
+        }
+      ],
+      "end": {
+        "title": "Bereit zur Zusammenarbeit?",
+        "description": "Lass uns zusammen arbeiten, um deine Idee zum Leben zu erwecken.",
+        "button": "PROJEKT STARTEN"
+      }
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Dein vollständiger Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "deine.email@beispiel.de",
+      "phone": "Telefon",
+      "phonePlaceholder": "+49 123 456789",
+      "optional": "optional",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Worum geht es?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzähl mir von deinem Projekt oder deiner Idee...",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet..."
+    },
+    "success": {
+      "title": "Nachricht erfolgreich gesendet!",
+      "message": "Vielen Dank für deine Nachricht! Ich melde mich so schnell wie möglich bei dir."
+    },
+    "error": {
+      "title": "Ups! Etwas ist schiefgelaufen",
+      "message": "Nachricht konnte nicht gesendet werden. Bitte versuche es erneut."
+    }
+  },
+  "footer": {
+    "description": "Entwicklung deiner Idee in die Realität.",
+    "navigation": "Navigation",
+    "social": "Plattformen",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}
