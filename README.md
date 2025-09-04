@@ -2,11 +2,6 @@
 
 I’m a software developer from Switzerland, focused on **web development** and **web design**. I bring a wide range of software development skills with strong expertise in **React** and **TypeScript**. Currently, I work at **Synprovis**, helping develop the quality management tool **Improve 2**.
 
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:giorgio@jacomella.dev)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giorgio-jacomella-095062231/)
-[![Website](https://img.shields.io/badge/-GiorgioJacomella.dev-4CAF50?style=flat&logo=world&logoColor=white)](https://github.com/GiorgioJacomella)
-
-
 
 ## 📜 Experience & Journey
 
@@ -23,3 +18,6 @@ Two years later, I started my first **full-time role** as a software developer a
 
 ## 🤝 Ready to Collaborate?
 Let's work together to bring your ideas to life.  
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:giorgio@jacomella.dev)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giorgio-jacomella-095062231/)
+[![Website](https://img.shields.io/badge/-giorgio.jacomella.dev-4CAF50?style=flat&logo=world&logoColor=white)](https://giorgio.jacomella.dev/)
