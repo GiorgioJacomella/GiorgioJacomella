@@ -2,6 +2,8 @@ import { Metadata } from 'next'
 import { client, Project, urlFor, getLocalizedContent } from '../../../lib/sanity'
 import { ProjectDetailContent } from './ProjectDetailContent'
 
+export const runtime = 'edge'
+
 interface ProjectPageProps {
   params: Promise<{ slug: string }>
 }
