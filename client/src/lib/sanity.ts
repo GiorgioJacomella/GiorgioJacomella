@@ -27,7 +27,7 @@ export function urlFor(source: any) {
 
 export async function testSanityConnection(): Promise<{ success: boolean; error?: string }> {
   try {
-    await client.fetch('*[_type == "project"]')
+    await client.fetch('*[_type == "project"][0]')
     return { success: true }
   } catch (error) {
     let errorMessage = 'Unknown connection error'
