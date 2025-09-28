@@ -18,7 +18,7 @@ export function useProjects() {
       }
       
       const query = `*[_type == "project"] | order(publishedAt desc) {
-        _id, title, description, image, publishedAt, slug
+        _id, title, description, image, publishedAt, slug, externalLink
       }`
       
       const result = await client.fetch(query)
