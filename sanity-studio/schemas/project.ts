@@ -48,7 +48,31 @@ export default {
       title: 'Order',
       type: 'number',
       description: 'Order in which projects should appear (lower numbers first)'
-    }
+    },
+    {
+      name: 'externalLink',
+        title: 'External Link',
+        type: 'object',
+        fields: [
+          {
+            name: 'text',
+            title: 'Link Text',
+            type: 'object',
+            fields: [
+              { name: 'en', title: 'English Text', type: 'string', validation: (Rule: any) => Rule.required() },
+              { name: 'de', title: 'German Text', type: 'string', validation: (Rule: any) => Rule.required() }
+            ],
+            validation: (Rule: any) => Rule.required()
+          },
+          {
+            name: 'url',
+            title: 'URL',
+            type: 'url',
+            validation: (Rule: any) => Rule.required().uri({ scheme: ['http', 'https'] })
+          }
+        ],
+        description: 'External link for the project (e.g., GitHub, website)'
+      }
   ],
   orderings: [
     {
