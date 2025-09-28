@@ -28,12 +28,32 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   const title = getLocalizedContent(project.title, 'en', 'Untitled Project')
   const description = getLocalizedContent(project.description, 'en', 'No description available')
   const imageUrl = project.image ? urlFor(project.image).width(1200).height(630).fit('crop').url() : null
+  
+  const keywords = `${title}, web development, web design, TypeScript, React, Giorgio Jacomella, portfolio project`
 
   return {
-    title: `${title} - Giorgio Jacomella`,
+    title: `${title} - Web Development Project | Giorgio Jacomella`,
     description,
-    openGraph: { title: `${title} - Giorgio Jacomella`, description, images: imageUrl ? [{ url: imageUrl }] : [] },
-    twitter: { card: 'summary_large_image', title: `${title} - Giorgio Jacomella`, description, images: imageUrl ? [imageUrl] : [] },
+    keywords,
+    openGraph: { 
+      title: `${title} - Web Development Project | Giorgio Jacomella`, 
+      description, 
+      images: imageUrl ? [{ url: imageUrl }] : [],
+      url: `https://giorgio.jacomella.dev/project/${slug}`,
+    },
+    twitter: { 
+      card: 'summary_large_image', 
+      title: `${title} - Web Development Project | Giorgio Jacomella`, 
+      description, 
+      images: imageUrl ? [imageUrl] : [] 
+    },
+    alternates: {
+      canonical: `https://giorgio.jacomella.dev/project/${slug}`,
+      languages: {
+        'en': `https://giorgio.jacomella.dev/en/project/${slug}`,
+        'de': `https://giorgio.jacomella.dev/de/project/${slug}`,
+      },
+    },
   }
 }
 
