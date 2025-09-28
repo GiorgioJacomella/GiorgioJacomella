@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
   const { slug } = await params
   const project = await client.fetch<Project>(
-    `*[_type == "project" && slug.current == $slug][0] { title, description, image }`,
+    `*[_type == "project" && slug.current == $slug][0] { title, description, image, externalLink }`,
     { slug }
   )
 
@@ -40,7 +40,16 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
 export default async function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = await params
   const project = await client.fetch<Project>(
-    `*[_type == "project" && slug.current == $slug][0] { title, description, image, publishedAt }`,
+    `*[_type == "project" && slug.current == $slug][0] { 
+      _id,
+      title,
+      description,
+      image,
+      publishedAt,
+      slug,
+      "hasExternalLink": defined(externalLink),
+      externalLink 
+    }`,
     { slug }
   )
 

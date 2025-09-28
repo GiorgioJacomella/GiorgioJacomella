@@ -69,6 +69,14 @@ export interface Project {
   slug: {
     current: string
   }
+  externalLink?: {
+    text: {
+      en: string
+      de: string
+    }
+    url: string
+  }
+  hasExternalLink?: boolean
 }
 
 export function getLocalizedContent<T>(
@@ -78,10 +86,15 @@ export function getLocalizedContent<T>(
 ): T {
   if (!content || typeof content !== 'object') return fallback
   
-  const localizedContent = content[language as keyof typeof content]
-  if (localizedContent !== undefined && localizedContent !== null) return localizedContent
-  
-  return content.en || fallback
+  try {
+    const localizedContent = content[language as keyof typeof content]
+    if (localizedContent !== undefined && localizedContent !== null) return localizedContent
+    
+    return content.en || fallback
+  } catch (error) {
+    console.error('Error getting localized content:', error)
+    return fallback
+  }
 }
 
 export { config as sanityConfig }
