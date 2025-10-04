@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   keywords: 'website developer, web designer, TypeScript developer, React developer, frontend developer, web development, web design, JavaScript, Giorgio Jacomella',
   authors: [{ name: 'Giorgio Jacomella' }],
   category: 'portfolio',
+  robots: 'index, follow, max-image-preview:large',
   openGraph: {
     title: 'Giorgio Jacomella - Web Developer & Designer',
     description: 'Professional portfolio showcasing web development and design work with TypeScript, React and modern technologies',
@@ -39,38 +40,42 @@ export default function RootLayout({
 }) {
   const structuredData = {
     '@context': 'https://schema.org',
-    '@type': 'ProfilePage',
-    '@id': 'https://giorgio.jacomella.dev',
-    'mainEntity': {
-      '@type': 'Person',
-      '@id': 'https://giorgio.jacomella.dev/#person',
-      'name': 'Giorgio Jacomella',
-      'description': 'Web Developer and Designer specializing in TypeScript, React, and modern web solutions',
-      'jobTitle': 'Web Developer & Designer',
-      'knowsLanguage': ['English', 'German'],
-      'email': 'giorgio@jacomella.dev',
-      'url': 'https://giorgio.jacomella.dev',
-      'hasOccupation': {
-        '@type': 'Occupation',
-        'name': 'Web Developer',
-        'occupationalCategory': 'Web Developer & Designer',
-        'skills': 'TypeScript, React, JavaScript, Web Design, Frontend Development'
-      },
-      'sameAs': [
-        'https://www.linkedin.com/in/giorgio-jacomella-095062231/',
-        'https://giorgio.jacomella.dev/'
-      ]
+    '@type': ['Person', 'ProfessionalService'],
+    '@id': 'https://giorgio.jacomella.dev/#person',
+    'name': 'Giorgio Jacomella',
+    'description': 'Web Developer and Designer specializing in TypeScript, React, and modern web solutions',
+    'jobTitle': 'Web Developer & Designer',
+    'knowsLanguage': [
+      { '@type': 'Language', 'name': 'English' },
+      { '@type': 'Language', 'name': 'German' }
+    ],
+    'email': 'giorgio@jacomella.dev',
+    'url': 'https://giorgio.jacomella.dev',
+    'sameAs': [
+      'https://www.linkedin.com/in/giorgio-jacomella-095062231/',
+      'https://github.com/GiorgioJacomella'
+    ],
+    'hasOccupation': {
+      '@type': 'Occupation',
+      'name': 'Web Developer',
+      'occupationalCategory': 'Web Developer & Designer',
+      'skills': 'TypeScript, React, JavaScript, Web Design, Frontend Development'
     },
-    'potentialAction': {
-      '@type': 'HireAction',
-      'name': 'Hire for Web Development & Design',
-      'target': 'https://giorgio.jacomella.dev/contact'
-    }
+    'workLocation': {
+      '@type': 'Country',
+      'name': 'Switzerland'
+    },
+    'serviceType': 'Web Development and Design Services',
+    'areaServed': 'Worldwide',
+    'availableLanguage': ['English', 'German']
   };
 
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+        <meta name="googlebot" content="index, follow" />
+        <link rel="canonical" href="https://giorgio.jacomella.dev" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
