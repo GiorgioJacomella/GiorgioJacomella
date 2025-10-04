@@ -4,6 +4,7 @@ export const metadata: Metadata = {
   title: 'Giorgio Jacomella - Web Developer & Designer',
   description: 'Professional web developer and designer specializing in TypeScript, React, and modern web solutions. Available for hire in English and German.',
   keywords: 'web developer, website designer, TypeScript expert, React developer, frontend specialist, portfolio, multilingual developer',
+  robots: 'index, follow',
   openGraph: {
     title: 'Giorgio Jacomella - Web Developer & Designer',
     description: 'Professional web developer and designer specializing in modern web technologies',
