@@ -60,6 +60,10 @@ export interface Project {
     en: string
     de: string
   }
+  seoDescription?: {
+    en?: string
+    de?: string
+  }
   image: {
     asset: {
       _ref: string

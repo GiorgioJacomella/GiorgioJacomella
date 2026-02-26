@@ -1412,3 +1412,115 @@ body[data-theme="dark"] .error-message {
     min-width: 100%;
   }
 }
+
+/* Cookie banner */
+.cookie-banner {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 640px;
+  z-index: 1100;
+  padding: 0 1rem;
+}
+
+.cookie-banner-content {
+  background-color: var(--surface-light);
+  color: var(--text-secondary-light);
+  box-shadow: var(--shadow-medium);
+  border: 1px solid var(--border-light);
+  border-radius: 0;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.cookie-banner-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary-light);
+}
+
+.cookie-banner-description {
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.5rem;
+}
+
+.cookie-banner-button {
+  min-width: 0;
+}
+
+.cookie-banner-button.secondary {
+  background-color: var(--surface-light);
+  color: var(--text-primary-light);
+  box-shadow: none;
+  border: 1px solid var(--border-light);
+}
+
+.cookie-banner-button.secondary:hover {
+  background-color: var(--primary-light);
+  color: white;
+}
+
+.cookie-banner-button.primary {
+  background-color: var(--primary-light);
+  color: white;
+}
+
+.cookie-banner-button.primary:hover {
+  background-color: var(--surface-light);
+  color: var(--text-primary-light);
+}
+
+body[data-theme="dark"] .cookie-banner-content {
+  background-color: var(--surface-dark);
+  color: var(--text-secondary-dark);
+  border-color: var(--border-dark);
+}
+
+body[data-theme="dark"] .cookie-banner-title {
+  color: var(--text-primary-dark);
+}
+
+body[data-theme="dark"] .cookie-banner-button.secondary {
+  background-color: var(--surface-dark);
+  color: var(--text-primary-dark);
+  border-color: var(--border-dark);
+}
+
+body[data-theme="dark"] .cookie-banner-button.secondary:hover {
+  background-color: var(--primary-dark);
+  color: white;
+}
+
+body[data-theme="dark"] .cookie-banner-button.primary {
+  background-color: var(--primary-dark);
+  color: white;
+}
+
+body[data-theme="dark"] .cookie-banner-button.primary:hover {
+  background-color: var(--surface-dark);
+  color: var(--text-primary-dark);
+}
+
+@media (max-width: 640px) {
+  .cookie-banner-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cookie-banner-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
