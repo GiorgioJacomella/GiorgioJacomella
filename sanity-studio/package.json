@@ -19,14 +19,14 @@
   "author": "Giorgio Jacomella",
   "license": "MIT",
   "dependencies": {
-    "@sanity/vision": "^3.99.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sanity": "^3.99.0",
+    "@sanity/vision": "^5.12.0",
+    "react": "^19.2.2",
+    "react-dom": "^19.2.2",
+    "sanity": "^5.12.0",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0"
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0"
   }
 }

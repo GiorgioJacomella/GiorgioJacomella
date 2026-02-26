@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
+import { Suspense } from 'react'
 import { AppProvider } from '../contexts/AppContext'
 import { Layout } from '../components/Layout'
+import { Analytics } from '../components/Analytics'
+import { CookieBanner } from '../components/CookieBanner'
 import '../index.css'
 
 export const metadata: Metadata = {
@@ -26,10 +29,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://giorgio.jacomella.dev',
-    languages: {
-      'en': 'https://giorgio.jacomella.dev/en',
-      'de': 'https://giorgio.jacomella.dev/de',
-    },
   },
 }
 
@@ -73,9 +72,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="robots" content="index, follow, max-image-preview:large" />
-        <meta name="googlebot" content="index, follow" />
-        <link rel="canonical" href="https://giorgio.jacomella.dev" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -83,9 +79,13 @@ export default function RootLayout({
       </head>
       <body>
         <AppProvider>
+          <Suspense fallback={null}>
+            <Analytics />
+          </Suspense>
           <Layout>
             {children}
           </Layout>
+          <CookieBanner />
         </AppProvider>
       </body>
     </html>
