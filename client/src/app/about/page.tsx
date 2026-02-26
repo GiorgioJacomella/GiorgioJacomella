@@ -55,6 +55,7 @@ export default function AboutPage() {
   
   return (
     <PageLayout className="about-page">
+      <h1 className="page-title">{locale.navigation.about}</h1>
       <div className="about-content">
         <div className="about-left">
           <div className="about-header">

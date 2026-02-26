@@ -72,7 +72,11 @@ export const Navigation: React.FC = () => {
               {renderToggleGroups('small')}
             </div>
 
-            <button className="mobile-menu-toggle" onClick={toggleMobileMenu}>
+            <button
+              className="mobile-menu-toggle"
+              onClick={toggleMobileMenu}
+              aria-label={isMobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            >
               <span></span>
               <span></span>
               <span></span>
@@ -84,7 +88,13 @@ export const Navigation: React.FC = () => {
       <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
         <div className="mobile-menu-header">
           <h3>{locale.navigation.logo}</h3>
-          <button onClick={closeMobileMenu} className="mobile-menu-close">✕</button>
+          <button
+            onClick={closeMobileMenu}
+            className="mobile-menu-close"
+            aria-label="Close navigation menu"
+          >
+            ✕
+          </button>
         </div>
         
         <nav className="mobile-nav">

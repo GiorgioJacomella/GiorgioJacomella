@@ -1,4 +1,10 @@
 {
+  "cookieBanner": {
+    "title": "Cookies & Analytics",
+    "description": "I use cookies to understand how the site is used and to improve it. You can accept or reject analytics.",
+    "acceptAll": "Accept all",
+    "onlyNecessary": "Only necessary"
+  },
   "navigation": {
     "logo": "Giorgio Jacomella",
     "home": "Home",

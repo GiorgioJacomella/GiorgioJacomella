@@ -11,9 +11,5 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://giorgio.jacomella.dev/projects',
-    languages: {
-      'en': 'https://giorgio.jacomella.dev/en/projects',
-      'de': 'https://giorgio.jacomella.dev/de/projects',
-    },
   },
 };

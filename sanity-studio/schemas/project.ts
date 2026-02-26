@@ -31,6 +31,16 @@ export default {
       validation: (Rule: any) => Rule.required()
     },
     {
+      name: 'seoDescription',
+      title: 'Preview text',
+      type: 'object',
+      fields: [
+        { name: 'en', title: 'English', type: 'string' },
+        { name: 'de', title: 'German', type: 'string' }
+      ],
+      description: 'Short line for search results. Leave empty to use the main description.'
+    },
+    {
       name: 'image',
       title: 'Image',
       type: 'image',
