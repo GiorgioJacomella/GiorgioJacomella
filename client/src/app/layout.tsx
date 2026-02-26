@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Suspense } from 'react'
 import { AppProvider } from '../contexts/AppContext'
 import { Layout } from '../components/Layout'
 import { Analytics } from '../components/Analytics'
@@ -78,7 +79,9 @@ export default function RootLayout({
       </head>
       <body>
         <AppProvider>
-          <Analytics />
+          <Suspense fallback={null}>
+            <Analytics />
+          </Suspense>
           <Layout>
             {children}
           </Layout>
