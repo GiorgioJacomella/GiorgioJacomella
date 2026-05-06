@@ -9,7 +9,7 @@ export default function ContactPage() {
   const locale = useLocale()
   return (
     <PageLayout className="contact-page">
-      <h1 className="page-title">{locale.navigation.contact}</h1>
+      <h1 className="page-title">{locale.contact.pageTitle}</h1>
       <ContactForm />
     </PageLayout>
   )

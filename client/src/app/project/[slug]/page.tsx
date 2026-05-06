@@ -31,15 +31,15 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
     ? getLocalizedContent(project.seoDescription as { en: string; de: string }, 'en', baseDesc)
     : baseDesc
   const imageUrl = project.image ? urlFor(project.image).width(1200).height(630).fit('crop').url() : null
-  const metaTitle = `${title} - Web Development Project | Giorgio Jacomella`
+  const metaTitle = `${title} — Web project | Giorgio Jacomella`
 
   return {
     title: metaTitle,
     description,
-    keywords: `${title}, web development, web design, TypeScript, React, Giorgio Jacomella, portfolio project`,
-    openGraph: { title: metaTitle, description, images: imageUrl ? [{ url: imageUrl }] : [], url: `https://giorgio.jacomella.dev/project/${slug}` },
+    keywords: `${title}, web development, JavaScript, TypeScript, React, Giorgio Jacomella, portfolio`,
+    openGraph: { title: metaTitle, description, images: imageUrl ? [{ url: imageUrl }] : [], url: `https://giorgio.jacomella.dev/project/${slug}/` },
     twitter: { card: 'summary_large_image', title: metaTitle, description, images: imageUrl ? [imageUrl] : [] },
-    alternates: { canonical: `https://giorgio.jacomella.dev/project/${slug}` },
+    alternates: { canonical: `https://giorgio.jacomella.dev/project/${slug}/` },
   }
 }
 
