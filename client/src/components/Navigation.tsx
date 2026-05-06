@@ -22,12 +22,15 @@ export const Navigation: React.FC = () => {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen)
   const closeMobileMenu = () => setIsMobileMenuOpen(false)
 
+  const isActiveNavPath = (path: string) =>
+    path === '/' ? pathname === '/' : pathname === path || pathname.startsWith(`${path}/`)
+
   const renderNavLinks = (items: typeof navItems, isMobile = false) => 
     items.map(({ path, label }) => (
       <Link
         key={path}
         href={path}
-        className={`${isMobile ? 'mobile-nav-item' : ''} ${pathname === path ? 'active' : ''}`}
+        className={`${isMobile ? 'mobile-nav-item' : ''} ${isActiveNavPath(path) ? 'active' : ''}`}
         onClick={isMobile ? closeMobileMenu : undefined}
       >
         {label}
@@ -59,7 +62,7 @@ export const Navigation: React.FC = () => {
     <>
       <nav className="navigation">
         <div className="nav-content">
-          <Link href="/" className={`nav-logo ${pathname === '/' ? 'active' : ''}`}>
+          <Link href="/" className={`nav-logo ${isActiveNavPath('/') ? 'active' : ''}`}>
             {locale.navigation.logo}
           </Link>
           
