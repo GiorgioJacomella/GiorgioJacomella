@@ -60,7 +60,7 @@ export default function AboutPage() {
         <div className="about-left">
           <div className="about-header">
             <div className="portrait-container">
-              <img src={portraitImage.src} alt="Giorgio Jacomella Portrait" className="portrait" />
+              <img src={portraitImage.src} alt="Giorgio Jacomella, web developer and designer" className="portrait" />
             </div>
             <div className="about-description">
               <h2>{locale.about.header.title}</h2>

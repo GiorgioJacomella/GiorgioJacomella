@@ -13,7 +13,7 @@
     "contact": "Kontakt"
   },
   "home": {
-    "title": "ENTWICKLUNG MIT VOLLGAS",
+    "title": "ENTWICKLUNG MIT REACT, NEXT JS & TYPESCRIPT",
     "primaryButton": "DEIN PROJEKT STARTEN",
     "secondaryButtons": {
       "about": "ÜBER MICH",
@@ -23,7 +23,7 @@
   "about": {
     "header": {
       "title": "Über mich",
-      "description": "Ich bin Softwareentwickler aus der Schweiz mit Schwerpunkt auf Webentwicklung und Webdesign. Neben vielfältigen Softwareentwicklungskompetenzen liegen meine besonderen Stärken in React und TypeScript. Derzeit arbeite ich bei der Firma Synprovis und unterstütze die Entwicklung des Qualitätsmanagement-Tools Improve 2."
+      "description": "Ich bin Softwareentwickler in der Schweiz mit Schwerpunkt Webentwicklung und Webdesign. Den Großteil meiner Arbeit mache ich in JavaScript, React und TypeScript. Aktuell bin ich bei Synprovis dabei, Improve 2 weiterzuentwickeln - eine Qualitätsmanagement-Software, die Teams produktiv nutzen."
     },
     "skills": {
       "title": "Fähigkeiten & Expertise",
@@ -39,32 +39,33 @@
       "items": [
         {
           "title": "Kreative Grundlagen",
-          "description": "Meine Laufbahn begann an der Kunstschule Invers, wo ich die Grundlagen des Designs erlernte. In dieser Zeit entdeckte ich die Webentwicklung und Programmierung, was meine Leidenschaft für digitale Lösungen entfachte."
+          "description": "Mein Weg begann an der Kunstschule Invers mit designorientierten Grundlagen. Dort habe ich Webentwicklung und Programmierung entdeckt—und gemerkt, dass ich digitale Produkte bauen will, die Menschen wirklich nutzen."
         },
         {
           "title": "Erste Schritte in der Entwicklung",
-          "description": "Ich entschied mich für den Karriereweg als Softwareentwickler und begann mit meinen ersten kleinen Projekten, um praktische Erfahrungen zu sammeln und meine Fähigkeiten zu vertiefen."
+          "description": "Ich habe den Schwerpunkt Richtung Softwareentwicklung verschoben und mit eigenen kleinen Projekten angefangen: echter Code, echte Grenzen, und kontinuierliches Training mit JavaScript und modernem Frontend."
         },
         {
-          "title": "Qualität entwickeln",
-          "description": "Zwei Jahre nach meiner Entscheidung, eine Karriere im Programmieren einzuschlagen, trat ich meine erste Vollzeitstelle als Softwareentwickler bei der Firma Synprovis an. Dort unterstütze ich die Entwicklung von Qualitätsmanagement-Software und arbeite am Aufbau von Improve 2."
+          "title": "Code für Qualität",
+          "description": "Zwei Jahre später startete ich bei Synprovis in Vollzeit. Ich arbeite täglich an Qualitätsmanagement-Software und am Ausbau von Improve 2 mit TypeScript und React in einem Produktkontext."
         }
       ],
       "end": {
         "title": "Bereit zur Zusammenarbeit?",
-        "description": "Lass uns zusammen arbeiten, um deine Idee zum Leben zu erwecken.",
+        "description": "Egal ob React, Typescript, JavaScript oder MQL. Lass uns zusammen arbeiten, um deine Idee zum Leben zu erwecken.",
         "button": "PROJEKT STARTEN"
       }
     }
   },
   "contact": {
+    "pageTitle": "Kontakt",
     "form": {
       "name": "Name",
       "namePlaceholder": "Dein vollständiger Name",
       "email": "E-Mail",
       "emailPlaceholder": "deine.email@beispiel.de",
       "phone": "Telefon",
-      "phonePlaceholder": "+49 123 456789",
+      "phonePlaceholder": "+41 000 000 00 00",
       "optional": "optional",
       "subject": "Betreff",
       "subjectPlaceholder": "Worum geht es?",
@@ -83,7 +84,7 @@
     }
   },
   "footer": {
-    "description": "Entwicklung deiner Idee in die Realität.",
+    "description": "Entwicklung deiner Idee zu produktiver Software.",
     "navigation": "Navigation",
     "social": "Plattformen",
     "rights": "Alle Rechte vorbehalten."

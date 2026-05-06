@@ -7,28 +7,33 @@ import { CookieBanner } from '../components/CookieBanner'
 import '../index.css'
 
 export const metadata: Metadata = {
-  title: 'Portfolio - Giorgio Jacomella | Web Developer & Designer',
-  description: 'Personal portfolio of Giorgio Jacomella - Web Developer and Designer specializing in TypeScript, React, and modern web design solutions in both English and German.',
-  keywords: 'website developer, web designer, TypeScript developer, React developer, frontend developer, web development, web design, JavaScript, Giorgio Jacomella',
+  metadataBase: new URL('https://giorgio.jacomella.dev'),
+  title: 'Giorgio Jacomella — React, TypeScript & JavaScript web development',
+  description:
+    'Web developer and designer building interfaces and products with React, TypeScript, and JavaScript. Portfolio, background, and selected work. English or German.',
+  keywords:
+    'Giorgio Jacomella, web developer, React developer, TypeScript developer, JavaScript, frontend development, web design, portfolio',
   authors: [{ name: 'Giorgio Jacomella' }],
   category: 'portfolio',
   robots: 'index, follow, max-image-preview:large',
   openGraph: {
-    title: 'Giorgio Jacomella - Web Developer & Designer',
-    description: 'Professional portfolio showcasing web development and design work with TypeScript, React and modern technologies',
-    url: 'https://giorgio.jacomella.dev',
-    siteName: 'Giorgio Jacomella Portfolio',
+    title: 'Giorgio Jacomella — React & TypeScript web developer',
+    description:
+      'Web development and design with React, TypeScript, and JavaScript—project work, background, and contact.',
+    url: 'https://giorgio.jacomella.dev/',
+    siteName: 'Giorgio Jacomella',
     locale: 'en_US',
     alternateLocale: 'de_DE',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Giorgio Jacomella - Web Developer & Designer',
-    description: 'Portfolio showcasing web development and design expertise in TypeScript, React and modern technologies',
+    title: 'Giorgio Jacomella — React & TypeScript web developer',
+    description:
+      'Experienced in React, TypeScript, and JavaScript: portfolio, selected projects, and ways to get in touch.',
   },
   alternates: {
-    canonical: 'https://giorgio.jacomella.dev',
+    canonical: 'https://giorgio.jacomella.dev/',
   },
 }
 
@@ -42,14 +47,14 @@ export default function RootLayout({
     '@type': ['Person', 'ProfessionalService'],
     '@id': 'https://giorgio.jacomella.dev/#person',
     'name': 'Giorgio Jacomella',
-    'description': 'Web Developer and Designer specializing in TypeScript, React, and modern web solutions',
+    'description': 'Web developer and designer focused on React, TypeScript, JavaScript, and modern web products',
     'jobTitle': 'Web Developer & Designer',
     'knowsLanguage': [
       { '@type': 'Language', 'name': 'English' },
       { '@type': 'Language', 'name': 'German' }
     ],
     'email': 'giorgio@jacomella.dev',
-    'url': 'https://giorgio.jacomella.dev',
+    'url': 'https://giorgio.jacomella.dev/',
     'sameAs': [
       'https://www.linkedin.com/in/giorgio-jacomella-095062231/',
       'https://github.com/GiorgioJacomella'
@@ -58,7 +63,7 @@ export default function RootLayout({
       '@type': 'Occupation',
       'name': 'Web Developer',
       'occupationalCategory': 'Web Developer & Designer',
-      'skills': 'TypeScript, React, JavaScript, Web Design, Frontend Development'
+      'skills': 'TypeScript, JavaScript, React, web design, frontend development'
     },
     'workLocation': {
       '@type': 'Country',

@@ -13,7 +13,7 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "CODE AT FULL THROTTLE",
+    "title": "DEVELOPMENT WITH REACT, NEXT JS & TYPESCRIPT",
     "primaryButton": "START YOUR PROJECT",
     "secondaryButtons": {
       "about": "ABOUT ME",
@@ -23,7 +23,7 @@
   "about": {
     "header": {
       "title": "About Me",
-      "description": "I’m a software developer from Switzerland, focused on web development and web design. I bring a wide range of software development skills with strong expertise in React and TypeScript. Currently, I work at the company Synprovis, helping develop the quality management tool Improve 2."
+      "description": "I'm a software developer based in Switzerland, focused on web development and design. Most of my day-to-day work is in JavaScript, React, and TypeScript. Right now I'm at Synprovis, helping build Improve 2 - a quality management software teams use in production."
     },
     "skills": {
       "title": "Skills & Expertise",
@@ -39,25 +39,26 @@
       "items": [
         {
           "title": "Creative Foundations",
-          "description": "I began my journey at Invers art school, where I learned the fundamentals of design. During this time, I discovered web development and programming, which sparked my passion for building digital solutions."
+          "description": "My path started at Invers art school, where I learned design fundamentals. That’s where I first picked up web development and programming, and realized I wanted to build things people actually use."
         },
         {
           "title": "First Steps as a Developer",
-          "description": "I decided to shift my career path towards software development and started working on my first small projects, gaining hands-on experience and deepening my skills."
+          "description": "I moved toward software development and shipped small projects on my own: real code, real constraints, and steady practice in JavaScript and the modern frontend stack."
         },
         {
-          "title": "Coding Quality",
-          "description": "Two years after deciding to pursue a coding career, I started my first full-time role as a software developer at the company Synprovis. There, I contribute to the development of quality management software and help build Improve 2."
+          "title": "Coding for Quality",
+          "description": "Two years into that pivot, I joined Synprovis full time. I work on quality-management software day to day and help grow Improve 2, shipping TypeScript and React in a product environment."
         }
       ],
       "end": {
         "title": "Ready to Collaborate?",
-        "description": "Let's work together to bring your ideas to life.",
+        "description": "If you need to build a project with React, TypeScript, or JavaScript, let's work together to bring your idea to life.",
         "button": "START YOUR PROJECT"
       }
     }
   },
   "contact": {
+    "pageTitle": "Contact",
     "form": {
       "name": "Name",
       "namePlaceholder": "Your full name",
@@ -83,7 +84,7 @@
     }
   },
   "footer": {
-    "description": "Developing your ideas into reality.",
+    "description": "Developing your ideas into production ready software.",
     "navigation": "Navigation",
     "social": "Platforms",
     "rights": "All rights reserved."

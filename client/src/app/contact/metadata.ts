@@ -1,15 +1,18 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Giorgio Jacomella - Web Development & Design Services',
-  description: 'Get in touch for professional web development and design services. Specialized in TypeScript, React and modern web solutions. Available in English and German.',
-  keywords: 'hire web developer, contact web designer, TypeScript developer for hire, React development services, web design services, multilingual web developer',
+  title: 'Contact — Giorgio Jacomella (web development)',
+  description:
+    'Message me about React, TypeScript, or JavaScript work, freelance builds, or collaborations. I respond in English or German.',
+  keywords:
+    'contact Giorgio Jacomella, web developer, React developer, TypeScript developer, JavaScript, freelance web development',
   openGraph: {
-    title: 'Contact Giorgio Jacomella - Web Development & Design Services',
-    description: 'Get in touch for professional web development and design services in English and German',
-    url: 'https://giorgio.jacomella.dev/contact',
+    title: 'Contact Giorgio Jacomella',
+    description:
+      'Web development enquiries—React, TypeScript, JavaScript, and product UI work. English or German.',
+    url: 'https://giorgio.jacomella.dev/contact/',
   },
   alternates: {
-    canonical: 'https://giorgio.jacomella.dev/contact',
+    canonical: 'https://giorgio.jacomella.dev/contact/',
   },
 };
