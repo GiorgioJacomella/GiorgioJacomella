@@ -1,0 +1,8 @@
+// Static site on Cloudflare Workers: no server code, only the files next build writes to out/.
+{
+  "name": "giorgio-jacomella",
+  "compatibility_date": "2026-10-01",
+  // 404-page serves the nearest 404.html, so /de/nope gets the German not-found page with status 404.
+  "assets": { "directory": "./out", "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "giorgio.jacomella.dev", "custom_domain": true }]
+}

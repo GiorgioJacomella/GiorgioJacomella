@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "description": "Ich bin Full-Stack-Entwickler aus der Schweiz und baue Websites und Webanwendungen mit React, TypeScript, C# und Python."
+  },
+  "nav": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "toggleTheme": "Dunkelmodus umschalten",
+    "toggleMenu": "Navigation umschalten",
+    "toggleProjects": "Projekt-Untermenü umschalten"
+  },
+  "home": {
+    "metaTitle": "Giorgio Jacomella · Full-Stack-Entwickler in der Schweiz",
+    "title": "Giorgio Jacomella: der Softwareentwickler für dein Projekt.",
+    "text": "Ich entwickle Websites und Webanwendungen vom Frontend bis zum Backend und unterstütze Forschungsprojekte mit Datenanalyse.",
+    "projects": "Projekte ansehen",
+    "moreProjects": "Alle Projekte ansehen",
+    "contact": "Kontakt aufnehmen",
+    "stack": "Technologien, mit denen ich arbeite",
+    "ctaTitle": "Lass uns zusammenarbeiten",
+    "ctaText": "Du hast eine Idee für eine Website, eine Webanwendung oder ein Datenprojekt? Schreib mir, oder erfahre zuerst mehr über mich.",
+    "about": "Mehr über mich"
+  },
+  "about": {
+    "title": "Über mich",
+    "description": "Full-Stack-Entwickler bei Synprovis, Informatiker EFZ, Studium in Informatik und Mathematik an der Open University.",
+    "text": "Ich bin Informatiker mit eidgenössischem Fähigkeitszeugnis (EFZ) in der Fachrichtung Applikationsentwicklung. Bei Synprovis arbeite ich als Full-Stack-Entwickler im Team, das Improve 2 entwickelt, den Nachfolger der Qualitätsmanagement-Software Improve 1.",
+    "skillsLabel": "Technologien & Fähigkeiten",
+    "skills": [
+      "Full-Stack",
+      "KI-Integration",
+      "Datenanalyse",
+      "Forschung",
+      "UI/UX-Design"
+    ],
+    "studyTitle": "Studium",
+    "studyText": "Neben dem Beruf studiere ich an der Open University, Vollzeit und als Fernstudium, und arbeite auf meinen Bachelor of Science (Honours) in Computing & IT and Mathematics hin. Das Fernstudium lässt sich flexibel mit meiner Arbeit verbinden, so fliesst das Gelernte direkt in die Praxis. Die Mathematik gibt mir zudem ein solides Fundament für Datenanalyse und KI.",
+    "projectsTitle": "Weitere Projekte",
+    "projectsText": "Nebenbei arbeite ich an eigenen Projekten: von Datenanalysen an Hackathons über Redesigns für die öffentliche Hand bis zu Websites für Selbstständige.",
+    "projectsCta": "Dein Projekt starten",
+    "portraitAlt": "Porträt von Giorgio Jacomella",
+    "workspaceAlt": "Laptop auf einem Tisch am Fenster"
+  },
+  "projects": {
+    "title": "Projekte",
+    "text": "Webanwendungen, KI-Tools und Datenanalysen, die ich gebaut habe, vom Hackathon bis zum produktiven Einsatz.",
+    "search": "Projekte durchsuchen",
+    "tags": "Tags",
+    "remove": "Entfernen",
+    "clearAll": "Alle entfernen",
+    "noResults": "Keine Projekte passen zu deiner Suche.",
+    "builtWith": "Gebaut mit"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "text": "Ich freue mich auf deine Nachricht.",
+    "description": "Kontakt zu Giorgio Jacomella über das Kontaktformular, per E-Mail oder LinkedIn.",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet …",
+    "success": "Danke! Deine Nachricht ist unterwegs. Ich melde mich bald bei dir.",
+    "error": "Senden fehlgeschlagen. Versuch es nochmals oder schreib mir direkt eine E-Mail.",
+    "notice": "Deine Nachricht wird über den Formulardienst Web3Forms an mich übermittelt.",
+    "subject": "Neue Nachricht über giorgio.jacomella.dev",
+    "direct": "Oder schreib mir direkt",
+    "noticePrivacy": "Datenschutzerklärung von Web3Forms"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Diese Seite existiert nicht.",
+    "back": "Zur Startseite"
+  },
+  "footer": {
+    "pages": "Seiten",
+    "icons": "Logos",
+    "privacy": "Datenschutz"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "country": "Schweiz",
+    "description": "Impressum von giorgio.jacomella.dev."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "description": "Wie giorgio.jacomella.dev mit Personendaten umgeht.",
+    "sections": [
+      {
+        "title": "Verantwortlich",
+        "text": "Giorgio Jacomella, Aarburg, Aargau, Schweiz. Bei Fragen zum Datenschutz schreib an giorgio@jacomella.dev."
+      },
+      {
+        "title": "Kontaktformular",
+        "text": "Wenn du das Kontaktformular sendest, werden dein Name, deine E-Mail-Adresse und deine Nachricht über den Formulardienst Web3Forms an mich übermittelt. Ich verwende sie nur, um dir zu antworten, und lösche sie, sobald sie nicht mehr nötig sind. Web3Forms bearbeitet die Daten gemäss seiner eigenen Datenschutzerklärung."
+      },
+      {
+        "title": "Hosting",
+        "text": "Diese Website wird bei Cloudflare gehostet. Um die Seiten auszuliefern und vor Angriffen zu schützen, bearbeitet Cloudflare technische Daten wie deine IP-Adresse, deinen Browser und den Zeitpunkt der Anfrage."
+      },
+      {
+        "title": "Kein Tracking",
+        "text": "Diese Website verwendet keine Cookies, keine Analyse-Tools und kein Tracking. Schriften werden von dieser Website selbst geladen. Deine Wahl zwischen hellem und dunklem Modus wird nur in deinem Browser gespeichert."
+      },
+      {
+        "title": "Deine Rechte",
+        "text": "Nach dem Schweizer Datenschutzgesetz (DSG) kannst du Auskunft über deine Daten verlangen und sie berichtigen oder löschen lassen. Schreib dazu an giorgio@jacomella.dev."
+      }
+    ]
+  }
+}

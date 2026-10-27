@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "description": "I'm a full-stack developer from Switzerland who builds websites and web apps with React, TypeScript, C# and Python."
+  },
+  "nav": {
+    "about": "About me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "language": "Language",
+    "toggleTheme": "Toggle dark mode",
+    "toggleMenu": "Toggle navigation",
+    "toggleProjects": "Toggle projects submenu"
+  },
+  "home": {
+    "metaTitle": "Giorgio Jacomella · Full-Stack Developer in Switzerland",
+    "title": "Giorgio Jacomella: the developer for your project.",
+    "text": "I build websites and web apps from front end to back end, and support research projects with data analysis.",
+    "projects": "See projects",
+    "moreProjects": "View all projects",
+    "contact": "Get in touch",
+    "stack": "Technologies I work with",
+    "ctaTitle": "Let's work together",
+    "ctaText": "Have an idea for a website, a web app or a data project? Get in touch, or learn more about me first.",
+    "about": "More about me"
+  },
+  "about": {
+    "title": "About me",
+    "description": "Full-stack developer at Synprovis, Informatiker EFZ, studying Computing & IT and Mathematics at The Open University.",
+    "text": "I'm a developer from Switzerland with a federal diploma in application development (Informatiker EFZ). At Synprovis, I work as a full-stack developer in the team building Improve 2, the successor to the quality management software Improve 1.",
+    "skillsLabel": "Technologies & skills",
+    "skills": [
+      "Full-Stack",
+      "AI Integration",
+      "Data Analytics",
+      "Research",
+      "UI/UX Design"
+    ],
+    "studyTitle": "Studies",
+    "studyText": "Alongside my job, I study at The Open University, full-time and remotely, working towards a BSc (Honours) in Computing & IT and Mathematics. Studying remotely lets me combine university with work, so what I learn goes straight into practice. Mathematics also gives me a solid foundation for data analysis and AI.",
+    "projectsTitle": "More projects",
+    "projectsText": "On the side, I work on projects of my own: from data analysis at hackathons to public-sector redesigns and websites for the self-employed.",
+    "projectsCta": "Start your project",
+    "portraitAlt": "Portrait of Giorgio Jacomella",
+    "workspaceAlt": "Laptop on a desk by the window"
+  },
+  "projects": {
+    "title": "Projects",
+    "text": "Web apps, AI tools and data analyses I've built, from hackathons to production.",
+    "search": "Search projects",
+    "tags": "Tags",
+    "remove": "Remove",
+    "clearAll": "Clear all",
+    "noResults": "No projects match your search.",
+    "builtWith": "Built with"
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Happy to hear from you.",
+    "description": "Get in touch with Giorgio Jacomella via the contact form, email or LinkedIn.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thanks! Your message is on its way. I'll get back to you soon.",
+    "error": "Sending failed. Please try again or write me an email directly.",
+    "notice": "Your message is delivered to me via the form service Web3Forms.",
+    "subject": "New message via giorgio.jacomella.dev",
+    "direct": "Or reach me directly",
+    "noticePrivacy": "Web3Forms privacy policy"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page doesn't exist.",
+    "back": "Back home"
+  },
+  "footer": {
+    "pages": "Pages",
+    "icons": "Logos",
+    "privacy": "Privacy"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "country": "Switzerland",
+    "description": "Legal notice for giorgio.jacomella.dev."
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "description": "How giorgio.jacomella.dev handles personal data.",
+    "sections": [
+      {
+        "title": "Responsible",
+        "text": "Giorgio Jacomella, Aarburg, Aargau, Switzerland. For any privacy question, write to giorgio@jacomella.dev."
+      },
+      {
+        "title": "Contact form",
+        "text": "When you send the contact form, your name, email address and message are delivered to me by the form service Web3Forms. I only use them to reply to you and delete them once they are no longer needed. Web3Forms processes the data according to its own privacy policy."
+      },
+      {
+        "title": "Hosting",
+        "text": "This website is hosted by Cloudflare. To deliver the pages and protect against attacks, Cloudflare processes technical data such as your IP address, browser and the time of the request."
+      },
+      {
+        "title": "No tracking",
+        "text": "This website uses no cookies, no analytics and no tracking. Fonts are served from this website itself. Your light or dark mode choice is saved only in your browser."
+      },
+      {
+        "title": "Your rights",
+        "text": "Under the Swiss Federal Act on Data Protection, you can ask what data I hold about you and have it corrected or deleted. Write to giorgio@jacomella.dev."
+      }
+    ]
+  }
+}
