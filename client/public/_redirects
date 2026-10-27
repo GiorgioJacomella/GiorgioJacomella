@@ -1,0 +1,7 @@
+/            /en            302
+/about       /en/about      301
+/projects    /en/projects   301
+/contact     /en/contact    301
+/impressum   /en/impressum  301
+/privacy     /en/privacy    301
+/project/*   /en/projects   301

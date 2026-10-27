@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* Theme lives on <html data-theme>, set before paint by the inline script in layout.tsx */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* next/font exposes these variables on <html> */
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #1d4ed8;
+  --color-primary-600: #1e40af;
+  --color-primary-700: #1e3a8a;
+  --color-primary-800: #172554;
+  --color-primary-900: #131d45;
+  --color-primary-950: #0b1330;
+
+  --animate-dropdown: dropdown 300ms ease-in-out forwards;
+  --animate-marquee: marquee 30s linear infinite;
+
+  /* Track holds the list twice, so shifting by half loops seamlessly */
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes dropdown {
+    from {
+      transform: translateY(-1rem);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    @apply scroll-pt-28 antialiased;
+  }
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-white font-sans text-slate-500 dark:bg-slate-950 dark:text-slate-400;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-heading font-bold text-slate-700 dark:text-slate-50;
+  }
+  h1 {
+    @apply mb-6 text-4xl lg:text-6xl;
+  }
+  h2 {
+    @apply mb-4 text-2xl lg:text-3xl;
+  }
+  h3 {
+    @apply mb-2 text-xl;
+  }
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex h-12 items-center justify-center gap-2 rounded px-6 text-sm font-bold tracking-wide whitespace-nowrap transition duration-300;
+  }
+  .btn-primary {
+    @apply bg-primary-500 text-white shadow-lg shadow-primary-500/30 hover:bg-primary-700;
+  }
+  .btn-secondary {
+    @apply bg-primary-50 text-primary-500 hover:bg-primary-100 hover:text-primary-600 dark:bg-primary-950 dark:text-primary-300 dark:hover:bg-primary-900;
+  }
+  /* Header gains its shadow as the page scrolls; browsers without scroll timelines just skip it */
+  .header-shadow {
+    animation: header-shadow linear both;
+    animation-timeline: scroll();
+    animation-range: 0 20rem;
+  }
+}
+
+@keyframes header-shadow {
+  to {
+    box-shadow:
+      0 20px 25px -5px rgb(15 23 42 / 0.05),
+      0 8px 10px -6px rgb(15 23 42 / 0.05);
+  }
+}
