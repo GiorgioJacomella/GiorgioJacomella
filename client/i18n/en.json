@@ -101,13 +101,20 @@
         "text": "This website is hosted by Cloudflare. To deliver the pages and protect against attacks, Cloudflare processes technical data such as your IP address, browser and the time of the request."
       },
       {
-        "title": "No tracking",
-        "text": "This website uses no cookies, no analytics and no tracking. Fonts are served from this website itself. Your light or dark mode choice is saved only in your browser."
+        "title": "Analytics",
+        "text": "With your consent, this website uses Google Analytics (Google LLC) to measure how it is used. Google Analytics sets cookies (_ga) and may process data in the USA. Without consent, it is not loaded at all. You can withdraw your consent at any time via \"Cookie settings\" in the footer. Your consent choice and your light or dark mode choice are saved only in your browser. Fonts are served from this website itself."
       },
       {
         "title": "Your rights",
         "text": "Under the Swiss Federal Act on Data Protection, you can ask what data I hold about you and have it corrected or deleted. Write to giorgio@jacomella.dev."
       }
     ]
+  },
+  "cookies": {
+    "text": "I use Google Analytics to see how this site is used. It only runs if you accept.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Cookie settings",
+    "more": "Privacy"
   }
 }

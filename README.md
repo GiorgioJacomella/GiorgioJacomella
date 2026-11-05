@@ -5,7 +5,7 @@ I'm a software engineer from Switzerland, working on **front-end and full-stack 
 - 💼 **Full-stack developer** at **Synprovis**, in the team building **Improve 2**, the successor to the quality management software Improve 1
 - 🎓 **Informatiker EFZ**, Swiss federal diploma in application development
 - 📚 Studying towards a **BSc (Honours) in Computing & IT and Mathematics** at **The Open University**, full-time and remote
-- 🧪 Side projects: data analysis at hackathons, public-sector redesigns, websites for the self-employed
+- 🧪 Side projects: data analytics, automation, web design and full-stack web development
 
 ## 🛠️ Technologies & skills
 
