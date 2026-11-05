@@ -102,7 +102,15 @@
       },
       {
         "title": "Analytics",
-        "text": "With your consent, this website uses Google Analytics (Google LLC) to measure how it is used. Google Analytics sets cookies (_ga) and may process data in the USA. Without consent, it is not loaded at all. You can withdraw your consent at any time via \"Cookie settings\" in the footer. Your consent choice and your light or dark mode choice are saved only in your browser. Fonts are served from this website itself."
+        "text": "With your consent, this website uses Google Analytics (Google Ireland Ltd. / Google LLC) to measure how it is used. Google Analytics sets cookies (_ga) and records, for example, pages visited, device, browser and approximate location. Data may be processed in the USA. Without consent, Google Analytics is not loaded at all."
+      },
+      {
+        "title": "Google advertising features",
+        "text": "With your consent, Google may also link this data to the Google account of visitors who are signed in and have allowed this in their Google settings (Google Signals). Google may combine it with information such as location, Google Search and YouTube history and data from partner websites, and use it for personalised advertising. Data you enter on this website, such as your email address in the contact form, may be sent to Google in hashed form. You can view and delete data linked to your Google account at myactivity.google.com and manage ad personalisation at adssettings.google.com."
+      },
+      {
+        "title": "Withdraw consent",
+        "text": "You can withdraw your consent at any time via \"Cookie settings\" in the footer. Your consent choice and your light or dark mode choice are saved only in your browser. Fonts are served from this website itself."
       },
       {
         "title": "Your rights",
@@ -111,7 +119,7 @@
     ]
   },
   "cookies": {
-    "text": "I use Google Analytics to see how this site is used. It only runs if you accept.",
+    "text": "I use Google Analytics to see how this site is used. Google may link this data to your Google account and use it for advertising. It only runs if you accept.",
     "accept": "Accept",
     "decline": "Decline",
     "settings": "Cookie settings",

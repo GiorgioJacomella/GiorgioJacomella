@@ -38,6 +38,13 @@ function loadGA() {
     // eslint-disable-next-line prefer-rest-params
     window.dataLayer!.push(arguments);
   };
+  // Consent Mode v2 signal: Google disables Signals and ad features for EEA visitors without it.
+  window.gtag("consent", "default", {
+    analytics_storage: "granted",
+    ad_storage: "granted",
+    ad_user_data: "granted",
+    ad_personalization: "granted",
+  });
   window.gtag("js", new Date());
   window.gtag("config", GA_ID);
   const s = document.createElement("script");

@@ -102,7 +102,15 @@
       },
       {
         "title": "Analyse",
-        "text": "Mit deiner Einwilligung nutzt diese Website Google Analytics (Google LLC), um zu messen, wie sie genutzt wird. Google Analytics setzt Cookies (_ga) und kann Daten in den USA bearbeiten. Ohne Einwilligung wird es gar nicht geladen. Du kannst deine Einwilligung jederzeit über «Cookie-Einstellungen» in der Fusszeile widerrufen. Deine Wahl zur Einwilligung und zwischen hellem und dunklem Modus wird nur in deinem Browser gespeichert. Schriften werden von dieser Website selbst geladen."
+        "text": "Mit deiner Einwilligung nutzt diese Website Google Analytics (Google Ireland Ltd. / Google LLC), um zu messen, wie sie genutzt wird. Google Analytics setzt Cookies (_ga) und erfasst zum Beispiel besuchte Seiten, Gerät, Browser und ungefähren Standort. Daten können in den USA bearbeitet werden. Ohne Einwilligung wird Google Analytics gar nicht geladen."
+      },
+      {
+        "title": "Google-Werbefunktionen",
+        "text": "Mit deiner Einwilligung kann Google diese Daten zudem mit dem Google-Konto von Besuchern verknüpfen, die angemeldet sind und dies in ihren Google-Einstellungen erlaubt haben (Google-Signale). Google kann sie mit Informationen wie Standort, Verlauf in der Google Suche und auf YouTube sowie Daten von Partner-Websites kombinieren und für personalisierte Werbung nutzen. Daten, die du auf dieser Website eingibst, etwa deine E-Mail-Adresse im Kontaktformular, können in gehashter Form an Google übermittelt werden. Mit deinem Google-Konto verknüpfte Daten kannst du unter myactivity.google.com ansehen und löschen, personalisierte Werbung unter adssettings.google.com verwalten."
+      },
+      {
+        "title": "Einwilligung widerrufen",
+        "text": "Du kannst deine Einwilligung jederzeit über «Cookie-Einstellungen» in der Fusszeile widerrufen. Deine Wahl zur Einwilligung und zwischen hellem und dunklem Modus wird nur in deinem Browser gespeichert. Schriften werden von dieser Website selbst geladen."
       },
       {
         "title": "Deine Rechte",
@@ -111,7 +119,7 @@
     ]
   },
   "cookies": {
-    "text": "Ich nutze Google Analytics, um zu sehen, wie die Website genutzt wird. Es läuft nur, wenn du zustimmst.",
+    "text": "Ich nutze Google Analytics, um zu sehen, wie die Website genutzt wird. Google kann diese Daten mit deinem Google-Konto verknüpfen und für Werbung nutzen. Es läuft nur, wenn du zustimmst.",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "settings": "Cookie-Einstellungen",
