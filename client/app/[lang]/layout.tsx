@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
+import { CookieBanner } from "@/components/cookie-banner";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { htmlLang, locales, ogLocale } from "@/i18n/config";
@@ -46,6 +47,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
         <Header locale={locale} labels={dict.nav} />
         <main className="flex-1">{children}</main>
         <Footer />
+        <CookieBanner locale={locale} labels={dict.cookies} />
       </body>
     </html>
   );

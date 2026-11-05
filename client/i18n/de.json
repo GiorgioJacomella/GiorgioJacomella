@@ -101,13 +101,20 @@
         "text": "Diese Website wird bei Cloudflare gehostet. Um die Seiten auszuliefern und vor Angriffen zu schützen, bearbeitet Cloudflare technische Daten wie deine IP-Adresse, deinen Browser und den Zeitpunkt der Anfrage."
       },
       {
-        "title": "Kein Tracking",
-        "text": "Diese Website verwendet keine Cookies, keine Analyse-Tools und kein Tracking. Schriften werden von dieser Website selbst geladen. Deine Wahl zwischen hellem und dunklem Modus wird nur in deinem Browser gespeichert."
+        "title": "Analyse",
+        "text": "Mit deiner Einwilligung nutzt diese Website Google Analytics (Google LLC), um zu messen, wie sie genutzt wird. Google Analytics setzt Cookies (_ga) und kann Daten in den USA bearbeiten. Ohne Einwilligung wird es gar nicht geladen. Du kannst deine Einwilligung jederzeit über «Cookie-Einstellungen» in der Fusszeile widerrufen. Deine Wahl zur Einwilligung und zwischen hellem und dunklem Modus wird nur in deinem Browser gespeichert. Schriften werden von dieser Website selbst geladen."
       },
       {
         "title": "Deine Rechte",
         "text": "Nach dem Schweizer Datenschutzgesetz (DSG) kannst du Auskunft über deine Daten verlangen und sie berichtigen oder löschen lassen. Schreib dazu an giorgio@jacomella.dev."
       }
     ]
+  },
+  "cookies": {
+    "text": "Ich nutze Google Analytics, um zu sehen, wie die Website genutzt wird. Es läuft nur, wenn du zustimmst.",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "settings": "Cookie-Einstellungen",
+    "more": "Datenschutz"
   }
 }

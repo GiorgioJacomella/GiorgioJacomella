@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieSettings } from "@/components/cookie-banner";
 import { Logo } from "@/components/logo";
 import { getDictionary, getLocale } from "@/i18n/dictionaries";
 import { projects, site } from "@/lib/site";
@@ -75,6 +76,7 @@ export async function Footer() {
             <Link href={`/${locale}/privacy`} className={link}>
               {dict.footer.privacy}
             </Link>{" "}
+            · <CookieSettings label={dict.cookies.settings} className={link} />{" "}
             · {dict.footer.icons}:{" "}
             {credits.map(({ name, href }, i) => (
               <span key={href}>
